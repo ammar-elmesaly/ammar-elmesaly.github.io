@@ -1,0 +1,64 @@
+html, body {
+    font-family: "Noto Kufi Arabic";
+    font-size: 22px;
+    min-height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #F1FAEE;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color: #E63946;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    background-color: gray !important;
+}
+
+footer {
+    background-color: #1D3557;
+    font-family: "Lucida Console";
+    text-align: center;
+
+}
+
+#personal-img {
+    border: 10px solid gray;
+    padding: 0 !important;
+    width: 350px;
+    height: 350px;
+    transition-duration: 250ms;
+}
+#personal-img:hover{
+    border-color: #FF0000;
+}
+
+#typewriter {
+    display: block;
+    font-size: 64px;
+}
+
+.caret {
+    display: inline-block;
+    color: gray;
+}
+
+.projects {
+    background-color: #457B9D;
+}
+/*
+Used Color Palette:
+#E63946
+#F1FAEE
+#A8DADC
+#457B9D
+#1D3557
+*/
