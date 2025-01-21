@@ -3,6 +3,7 @@ html, body {
     font-size: 22px;
     min-height: 100%;
     margin: 0;
+    scroll-padding-top: 70px;
 }
 
 body {
@@ -53,6 +54,21 @@ footer {
 
 .projects {
     background-color: #457B9D;
+}
+
+.photos {
+    background-color: #A8DADC;
+    color: darkslategrey;
+}
+
+/* This refers to images I have designed */
+
+.img-design {
+    transition-duration: 300ms;
+}
+
+.img-design:hover {
+    transform: translateY(-10px);
 }
 /*
 Used Color Palette:
