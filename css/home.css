@@ -24,9 +24,12 @@ nav {
     background-color: gray !important;
 }
 
+.brand-icon img {
+    max-width: 3rem !important;
+}
+
 footer {
     background-color: #1D3557;
-    font-family: "Lucida Console";
     text-align: center;
 
 }
