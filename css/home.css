@@ -56,20 +56,49 @@ footer {
     background-color: #457B9D;
 }
 
-.photos {
+.photos { /* photos container */
     background-color: #A8DADC;
     color: darkslategrey;
 }
 
-/* This refers to images I have designed */
-
-.img-design {
+.img-design, .video, .project a { /* image design refers to images I have designed */
     transition-duration: 300ms;
 }
 
 .img-design:hover {
-    transform: translateY(-10px);
+    transform: scale(1.04);
+    filter: grayscale(100%);
 }
+
+.video:hover, .project a:hover {
+    transform: translateY(-6px);
+}
+
+.project {
+    display: flex !important;
+}
+
+.project img {
+    border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.project a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 90% !important;
+    height: min-content;
+}
+
+h6 {
+    margin-bottom: 0 !important;
+}
+
+.disc {
+    background: linear-gradient(158deg, rgba(255,255,255,1) 0%, rgba(92,133,142,1) 100%);
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
 /*
 Used Color Palette:
 #E63946

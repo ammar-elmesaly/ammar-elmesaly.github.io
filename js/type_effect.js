@@ -1,4 +1,4 @@
-let text = ["أنا عمار.", "أنا مبرمج."];
+let text = ["أنا عمار.", "أنا مبرمج.", "أهلًا وسهلًا بكم."];
 let textIdx = 0;
 let i = 0;
 let reverse = false;
@@ -18,7 +18,7 @@ function typeWriter() {
         } else {
             // deleting done. Set next job, and repeat with typing by
             // setting reverse to false
-            textIdx = (textIdx+1) % 2;
+            textIdx = (textIdx+1) % text.length;
             reverse = false;
             setTimeout(typeWriter, 1000);
         }
@@ -36,7 +36,6 @@ function typeWriter() {
             if (i < text[textIdx].length) {
 
                 document.querySelector("#text").innerHTML += text[textIdx].charAt(i);
-                console.log(document.querySelector("#text").innerHTML);
                 i++;
                 setTimeout(typeWriter, textJitter);
             }
