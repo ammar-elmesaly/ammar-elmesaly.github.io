@@ -124,7 +124,7 @@ body {
     border: 8px solid gray;
     padding: 0 !important;
     width: 350px;
-    height: 350px;
+    height: auto;
     transition-duration: 250ms;
 }
 
