@@ -18,9 +18,10 @@
         <link href="https://fonts.googleapis.com/css?family=Noto Kufi Arabic" rel="stylesheet">
         <!-- Bootstrap Scripts + My Scripts -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <script src="js/type_effect.js" defer></script>
-        <script src="js/copyright.js" defer></script>
-        <script src="js/contact.js" defer></script>
+        <script src="js/type_effect.js"></script>
+        <script src="js/copyright.js"></script>
+        <script src="js/contact.js"></script>
+        <script src="js/lightbox.js"></script>
         <!-- Title -->
         <title>صفحتي الشخصية</title>
     </head>
@@ -106,17 +107,17 @@
                     وأجمل لحظة بالنسبة لي هي عندما أرى فكرتي تتحول إلى واقع!
                 </div>
                 <div class="row g-3">
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a href="assets/images/body/designs/restaurant-ad.webp"><img src="assets/images/body/designs/restaurant-ad.webp" class="img-fluid img-design rounded" alt="A restaurant ad graphic design."></a>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item" data-index="1">
+                        <img src="assets/images/body/designs/restaurant-ad.webp" class="img-fluid img-design rounded" alt="A restaurant ad graphic design.">
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a href="assets/images/body/designs/tafsir-with-source.webp"><img src="assets/images/body/designs/tafsir-with-source.webp" class="img-fluid img-design rounded" alt="Quran Tafsir (Exogesis) design."></a>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item" data-index="2">
+                        <img src="assets/images/body/designs/tafsir-with-source.webp" class="img-fluid img-design rounded" alt="Quran Tafsir (Exogesis) design.">
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a href="assets/images/body/designs/tutor-ad.webp"><img src="assets/images/body/designs/tutor-ad.webp" class="img-fluid img-design rounded" alt="A tutor ad design."></a>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item" data-index="3">
+                        <img src="assets/images/body/designs/tutor-ad.webp" class="img-fluid img-design rounded" alt="A tutor ad design.">
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a href="assets/images/body/designs/cafe-shop-ad.webp"><img src="assets/images/body/designs/cafe-shop-ad.webp" class="img-fluid img-design rounded" alt="Ammar Elmesaly's personal photo."></a>
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item" data-index="4">
+                        <img src="assets/images/body/designs/cafe-shop-ad.webp" class="img-fluid img-design rounded" alt="Coffee shop ad.">
                     </div>
                 </div>
             </section>
@@ -188,5 +189,13 @@
             <p>جميع الحقوق محفوظة.</p>
             <a href="mailto:ammar-elmesaly@proton.me">ammar-elmesaly@proton.me</a></p>
         </footer>
+        <!-- Lightbox -->
+        <section class="lightbox vh-100 align-items-center justify-content-center">
+            <div class="lightbox-content container">
+                <img src="">
+                <i class="bi bi-caret-right lightbox-prev"></i>
+                <i class="bi bi-caret-left lightbox-next"></i>
+            </div>
+        </section>
     </body>
 </html>
